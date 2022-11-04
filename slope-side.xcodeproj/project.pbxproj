@@ -14,6 +14,16 @@
 		40011A4A2915AB47001ADC78 /* slope_sideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A492915AB47001ADC78 /* slope_sideTests.swift */; };
 		40011A542915AB47001ADC78 /* slope_sideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A532915AB47001ADC78 /* slope_sideUITests.swift */; };
 		40011A562915AB47001ADC78 /* slope_sideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A552915AB47001ADC78 /* slope_sideUITestsLaunchTests.swift */; };
+		40011A642915ABC8001ADC78 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A632915ABC8001ADC78 /* Location.swift */; };
+		40011A662915ABD3001ADC78 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A652915ABD3001ADC78 /* Address.swift */; };
+		40011A682915ABDA001ADC78 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A672915ABDA001ADC78 /* Person.swift */; };
+		40011A6A2915ABE3001ADC78 /* Carpool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A692915ABE3001ADC78 /* Carpool.swift */; };
+		40011A6C2915ABEC001ADC78 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A6B2915ABEC001ADC78 /* Car.swift */; };
+		40011A6F2915AC39001ADC78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A6E2915AC39001ADC78 /* HomeView.swift */; };
+		40011A712915AC48001ADC78 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A702915AC48001ADC78 /* NavBarView.swift */; };
+		40011A732915AC5C001ADC78 /* CarpoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A722915AC5C001ADC78 /* CarpoolView.swift */; };
+		40011A752915AC77001ADC78 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A742915AC77001ADC78 /* CardView.swift */; };
+		40011A772915AC89001ADC78 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A762915AC89001ADC78 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		40011A4F2915AB47001ADC78 /* slope-sideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slope-sideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40011A532915AB47001ADC78 /* slope_sideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slope_sideUITests.swift; sourceTree = "<group>"; };
 		40011A552915AB47001ADC78 /* slope_sideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slope_sideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40011A632915ABC8001ADC78 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		40011A652915ABD3001ADC78 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		40011A672915ABDA001ADC78 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		40011A692915ABE3001ADC78 /* Carpool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carpool.swift; sourceTree = "<group>"; };
+		40011A6B2915ABEC001ADC78 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		40011A6E2915AC39001ADC78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		40011A702915AC48001ADC78 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		40011A722915AC5C001ADC78 /* CarpoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolView.swift; sourceTree = "<group>"; };
+		40011A742915AC77001ADC78 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		40011A762915AC89001ADC78 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +114,8 @@
 		40011A372915AB46001ADC78 /* slope-side */ = {
 			isa = PBXGroup;
 			children = (
+				40011A6D2915AC26001ADC78 /* Views */,
+				40011A622915ABBC001ADC78 /* Models */,
 				40011A382915AB46001ADC78 /* slope_sideApp.swift */,
 				40011A3A2915AB46001ADC78 /* ContentView.swift */,
 				40011A3C2915AB47001ADC78 /* Assets.xcassets */,
@@ -125,6 +147,30 @@
 				40011A552915AB47001ADC78 /* slope_sideUITestsLaunchTests.swift */,
 			);
 			path = "slope-sideUITests";
+			sourceTree = "<group>";
+		};
+		40011A622915ABBC001ADC78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40011A632915ABC8001ADC78 /* Location.swift */,
+				40011A652915ABD3001ADC78 /* Address.swift */,
+				40011A672915ABDA001ADC78 /* Person.swift */,
+				40011A692915ABE3001ADC78 /* Carpool.swift */,
+				40011A6B2915ABEC001ADC78 /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40011A6D2915AC26001ADC78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40011A6E2915AC39001ADC78 /* HomeView.swift */,
+				40011A702915AC48001ADC78 /* NavBarView.swift */,
+				40011A722915AC5C001ADC78 /* CarpoolView.swift */,
+				40011A742915AC77001ADC78 /* CardView.swift */,
+				40011A762915AC89001ADC78 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40011A682915ABDA001ADC78 /* Person.swift in Sources */,
+				40011A772915AC89001ADC78 /* DetailView.swift in Sources */,
 				40011A3B2915AB46001ADC78 /* ContentView.swift in Sources */,
+				40011A6A2915ABE3001ADC78 /* Carpool.swift in Sources */,
+				40011A642915ABC8001ADC78 /* Location.swift in Sources */,
+				40011A712915AC48001ADC78 /* NavBarView.swift in Sources */,
+				40011A662915ABD3001ADC78 /* Address.swift in Sources */,
+				40011A6F2915AC39001ADC78 /* HomeView.swift in Sources */,
+				40011A6C2915ABEC001ADC78 /* Car.swift in Sources */,
 				40011A392915AB46001ADC78 /* slope_sideApp.swift in Sources */,
+				40011A752915AC77001ADC78 /* CardView.swift in Sources */,
+				40011A732915AC5C001ADC78 /* CarpoolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
